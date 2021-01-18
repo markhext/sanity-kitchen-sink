@@ -42,7 +42,7 @@ Technologies:
 ## Enable real-time content preview on development
 
 1. Go to your [project’s API settings on manage.sanity.io](https://manage.sanity.io/projects/0wxtdm9c/settings/api) and create a token with read rights.
-2. Rename `.env.development.template` to `.env.development` and paste in the token: `SANITY_READ_TOKEN="yourTokenHere"`.
+2. Rename `.env.development.template` to `.env.development` and paste in the token: `SANITY_READ_TOKEN="skkYihYk13X8QVpy0d5PfCKd0TavfXuNu1F9AHdHF6QFLQfZCiyckxy6W6JHhm0a8T4QAWGJpVzhzaRIgxqk13CBu8NZ0WyYdZxpjtSlzD9Uwh0ejrreb5CdA8hjPn7HF3boixJJGBAhC0DmDMVIOj6F6skKRjr1I5Tohy7dyCJ7VZQzkq7x"`.
 3. Restart the development server (`ctrl + C` and `npm run dev`).
 
 If you want to turn off preview you can set `watchMode: false` in gatsby-config.js. If you just want to preview published changes you can set `overlayDrafts: false` in gatsby-config.js.
